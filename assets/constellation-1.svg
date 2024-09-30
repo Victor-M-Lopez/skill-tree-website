@@ -1,0 +1,16 @@
+<svg width="499" height="769" viewBox="0 0 499 769" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="11.8081" y1="181.538" x2="420.808" y2="11.5383" stroke="white"/>
+<line x1="210.121" y1="376.515" x2="487.121" y2="445.515" stroke="white"/>
+<line x1="338.337" y1="618.369" x2="186.337" y2="757.369" stroke="white"/>
+<line x1="487.378" y1="446.327" x2="338.378" y2="618.327" stroke="white"/>
+<line x1="185.594" y1="757.291" x2="23.5936" y2="531.291" stroke="white"/>
+<line x1="23.6811" y1="530.615" x2="209.681" y2="376.615" stroke="white"/>
+<line x1="209.649" y1="377.356" x2="11.6492" y2="182.356" stroke="white"/>
+<circle cx="186" cy="757" r="12" fill="#BABABA"/>
+<circle cx="338" cy="618" r="12" fill="#BABABA"/>
+<circle cx="24" cy="531" r="12" fill="#BABABA"/>
+<circle cx="487" cy="446" r="12" fill="#BABABA"/>
+<circle cx="210" cy="377" r="12" fill="#BABABA"/>
+<circle cx="12" cy="182" r="12" fill="#BABABA"/>
+<circle cx="421" cy="12" r="12" fill="#BABABA"/>
+</svg>
