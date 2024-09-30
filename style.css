@@ -6,4 +6,138 @@
 
 body {
 	background-color: #201d36;
+	padding: 24px;
+	height: 100vh;
+	overflow: hidden;
+}
+
+svg {
+	width: 32%;
+	height: 100vh;
+}
+
+button {
+	cursor: pointer;
+}
+
+circle:hover {
+	cursor: pointer;
+	animation-duration: 500ms;
+	animation-timing-function: linear;
+	animation-delay: 300ms;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+circle {
+	animation-name: light_up;
+}
+
+@keyframes light_up {
+	from {
+		fill: #fff;
+	}
+	to {
+		fill: #bababa;
+	}
+}
+
+@keyframes button_light_up {
+	from {
+		border: 1px solid #fff;
+	}
+	to {
+		border: 1ox solid #bababa;
+	}
+}
+
+#project_1,
+#project_2 {
+	position: absolute;
+	top: 50%;
+	right: 20%;
+	transform: translateY(-50%);
+	background-color: #201d36;
+	width: 500px;
+	height: 100px;
+	border: 1px solid #737373;
+	padding: 24px;
+	overflow-y: hidden;
+	transition: height 500ms ease, opacity 800ms ease;
+}
+
+.exit_btn,
+.exit_btn-2 {
+	border: none;
+	background-color: transparent;
+	color: #fff;
+	font-size: 24px;
+}
+
+.project_name {
+	color: #fff;
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 32px;
+}
+
+.project_description,
+.project_scope {
+	color: #fff;
+	margin-bottom: 12px;
+}
+
+.description_text,
+.scope_text {
+	color: #fff;
+	margin-bottom: 32px;
+}
+
+ol,
+ul {
+	color: #fff;
+}
+
+p {
+	color: #fff;
+}
+
+.delivery_text {
+	margin: 24px 0 16px 0;
+}
+
+#complete_btn,
+#complete_btn-2 {
+	background-color: transparent;
+	border: 1px solid #bababa;
+	color: #fff;
+	padding: 8px 24px;
+	margin-top: 24px;
+}
+
+.no-show {
+	opacity: 0;
+}
+
+.show {
+	opacity: 1;
+}
+
+#complete_btn:hover {
+	animation-name: button_light_up;
+}
+
+#complete_btn:hover {
+	cursor: pointer;
+	animation-duration: 500ms;
+	animation-timing-function: linear;
+	animation-delay: 300ms;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+#line-1,
+#line-2,
+#line-3 {
+	transition: stroke 800ms ease;
 }
